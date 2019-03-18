@@ -10,6 +10,7 @@
     "plugins": ["splitter",
 				"anchor-navigation-ex",
 				"-sharing",
+				"editlink",
 				"sharing-plus",
 				"-highlight",
 				"prism",
@@ -31,6 +32,11 @@
 			"level2Icon": "fa fa-hand-o-right",
 			"level3Icon": "fa fa-hand-o-right"
 			}
+		},
+		"editlink": {
+			  "base": "https://github.com/ikfqmuld/testThird/edit/master/",
+			  "label": "Edit This Page",
+			  "multilingual": false
 		},
 		"sectionx": {
           "tag": "b"
