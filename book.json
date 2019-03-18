@@ -1,0 +1,51 @@
+{
+	"gitbook": "3.2.3",
+	"title": "xter",
+	"description": "https://www.gitbook.com",
+	"author": "xter",
+	"language": "zh",
+	"links": {
+		"sidebar": {}
+	},
+    "plugins": ["splitter",
+				"anchor-navigation-ex",
+				"-sharing",
+				"sharing-plus",
+				"-highlight",
+				"prism",
+				"prism-themes",
+				"sectionx",
+				"book-summary-scroll-position-saver",
+				"expandable-chapters"
+				],
+	"pluginsConfig": {
+		"anchor-navigation-ex": {
+			"associatedWithSummary":false,
+			"showLevel":true,
+			"multipleH1": false,
+			"mode": "float",
+
+			"pageTop": {
+			"showLevelIcon": false,
+			"level1Icon": "fa fa-hand-o-right",
+			"level2Icon": "fa fa-hand-o-right",
+			"level3Icon": "fa fa-hand-o-right"
+			}
+		},
+		"sectionx": {
+          "tag": "b"
+        },
+		"prism": {
+			"css": [
+				"prismjs/themes/prism-tomorrow.css",
+				"prism-themes/themes/prism-duotone-dark.css"
+				]
+		},
+		"styles": {
+			"website": "styles/website.css"
+		},
+		"disqus": {
+            "shortName": "disqus_commit"
+        }
+	}
+}
